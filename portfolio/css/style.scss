@@ -1,0 +1,98 @@
+*{
+    color: #cfdbd5;
+}
+#titre{
+    font-family: "New Century Schoolbook", Times, serif;
+    text-align: center;
+    font-size: 70px;
+    color: #cfdbd5;
+    padding-bottom: 50px;
+}
+#sous-titre{
+    font-family: "New Century Schoolbook", Times, serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: #cfdbd5;
+    color:#333533;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color:  #353535;
+}
+
+#Home{
+   
+    max-width: 1080px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top: 50vh; 
+    transform: translateY(-50%); 
+    #Menu{
+        ul{
+            li{
+                padding-top: 30px;
+                a{
+                    color: #cfdbd5;
+                    font-size: 20px;
+    
+                }
+            }
+        }
+        img{
+            width: 120px;
+            height: 120px;
+            background-color: white;
+            border-radius: 50%;
+            
+        }
+        img:hover{
+            height: 130px;
+            width: 130px;
+    }
+    }
+}
+
+#Form-Stud{
+
+    padding-top: 30px;
+    border-top:solid #cfdbd5;
+   .formationCase{
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       img{
+           width: 550px;
+           height: 350px;
+       }
+    .contenuFormation{
+        width: 600px;
+        a:hover{
+            background-color: rgb(255,255,255,0.7);
+        }
+    }
+       
+   }
+   .formationCaseRight{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    img{
+        width: 550px;
+        height: 350px;
+    }
+    .contenuFormation{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 600px;
+    }
+   }
+
+}
+
+
+
